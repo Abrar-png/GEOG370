@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Walk",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 3 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.056333386625397, 35.929291954628489 ], [ -79.055360143114427, 35.929617930810416 ], [ -79.055377838450994, 35.929782709467901 ], [ -79.054926607368657, 35.929940323514607 ], [ -79.055178765914661, 35.93062809022323 ] ] ] } }
-]
-}
