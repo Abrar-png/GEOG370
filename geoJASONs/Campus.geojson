@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Campus",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2, "camps": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -79.056177779416103, 35.914024235885563 ], [ -79.046355890934663, 35.917652041532023 ], [ -79.03698605589797, 35.89751395515092 ], [ -79.056999694770184, 35.899577928617319 ], [ -79.056177779416103, 35.914024235885563 ] ] ] ] } }
+]
+}
