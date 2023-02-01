@@ -9,37 +9,75 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>First, I downloaded the Indicatrix Mapper plugin into QGIS. This plugin allows Tissot's indicatrix to be calculated based on
+        the given projection. After this, I imported the vector map into QGIS, and then
+        on the bottom right corner of the window, there is an indicator that tells the user
+        what the current projection is. Upon clicking this, I was able to change
+        the projection. The plugin will also automatically recalculate Tissot's indicatrix.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection attempts to keep the map as equidistant as possible. However, in preserving the distance, 
+        this projection sacrifices shape and size. This is evident as the projection moves toward the poles, the shape 
+        stretches horizontally and becomes enlarged.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection shows the curvature of the Earth, and attempts to curve the projection in 2D.
+        This causes the projection to be accurate at the Equator and the Prime Meridian but sacrifices the shape at 
+        the right and left sides of the map.
+    </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>Pseudo Mercator</h2>
-    <h3>Some observations</h3>
+    <h3>This projection aims to preserve the shapes of the countries but causes the size and distance to become distorted
+        the further you get from the Equator.
+    </h3>
     <a href=".//maps/Pseudo Mercator.png">
     <img src=".//maps/Pseudo Mercator.png" alt="Pseudo Mercator" width='500px'>
     </a>
     <h2>Sphere Winkel</h2>
-    <h3>Some observations</h3>
+    <h3>This projection portrays the Earth's curvature and tries to conserve distance. 
+        However, the projection stretches the map vertically and this stretch is more noticeable
+        the closer you get to the poles.
+    </h3>
     <a href=".//maps/Sphere Winkel.png">
     <img src=".//maps/Sphere Winkel.png" alt="Sphere Winkel" width='500px'>
     </a>
     <h2>Cylindrical Equal Area</h2>
-    <h3>Some observations</h3>
+    <h3>This projection portrays the globe as the surface of a cylinder with equal diameter and height as the sphere.
+        This conserves the size of countries for the most part, but as you move towards the poles, the countries get
+        stretched horizontally.
+    </h3>
     <a href=".//maps/Cylindrical Equal Area.png">
     <img src=".//maps/Cylindrical Equal Area.png" alt="Cylindrical Equal Area" width='500px'>
     </a>
     <h2>World Equidistant Conic</h2>
-    <h3>Some observations</h3>
+    <h3>This projection portrays the globe as the surface of a cone with equal base diameter and height as the sphere.
+        This causes the point of the cone to be more accurate and portrays the world as being viewed from the top. However,
+        as the projection moves away from the center(south), the shapes get stretched horizontally and the sizes get larger.
+    </h3>
     <a href=".//maps/Equidistant Conic.png">
     <img src=".//maps/Equidistant Conic.png" alt="World Equidistant Conic" width='500px'>
+    </a>
+    <h2>North Pole Azimuthal Equidistant</h2>
+    <h3>This projection is similar to the World Equidistant Conic projection. This projection attempts to keep verticle distances
+        as equidistant as possible as the projection moves from north to south. Despite this, the map still becomes distorted in size
+        and shape as the projection moves towards the edge.
+    </h3>
+    <a href=".//maps/NP Azimuthal Equidistant.png">
+    <img src=".//maps/NP Azimuthal Equidistant.png" alt="North Pole Azimuthal Equidistant" width='500px'>
+    </a>
+    <h2>North Pole Azimuthal Equidistant</h2>
+    <h3>Some observations</h3>
+    <a href=".//maps/NP Azimuthal Equidistant.png">
+    <img src=".//maps/NP Azimuthal Equidistant.png" alt="North Pole Azimuthal Equidistant" width='500px'>
+    </a>
+    <h2>North Pole Azimuthal Equidistant</h2>
+    <h3>Some observations</h3>
+    <a href=".//maps/NP Azimuthal Equidistant.png">
+    <img src=".//maps/NP Azimuthal Equidistant.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
     <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
     <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
